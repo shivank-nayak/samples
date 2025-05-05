@@ -53,7 +53,7 @@ Since we don't know how many times the user is going to guess the password, we d
 ### Example 4: Just for fun
 Here's an example that might look familiar.
 ```python
-for i in [3, 2, 1]:
+for i in [5, 4, 3, 2, 1]:
     print(f"{i} little monkeys jumping on the bed")
     print("One fell off and bumped his head")
 ```
@@ -119,13 +119,13 @@ Imagine you're sitting in a movie theater and want to know which row you're in, 
 The smaller problem here is "how many rows are in front of the row before mine?" If you're in the front row, you know. A function to solve this recursively might look like this:
 
 ```python
-def ask_seat_number(person):
+def ask_row_number(person):
     if person.is_first_row:          
         return 1
-    return 1 + ask_seat_number(person.in_front)  
+    return 1 + ask_row_number(person.in_front)  
 
-your_seat = ask_seat_number(you)
-print("Your seat number is:", your_seat)
+your_row = ask_row_number(you)
+print("Your row number is:", your_row)
 ```
 Each person asks the person in front of them. When they get an answer, they add 1 and pass it back up until it reaches you.
 
