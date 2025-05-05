@@ -110,7 +110,7 @@ countdown(10)
 ```
 Not too different from the loop, right? Copy this code into the Python Tutor and click Visualize. Step through the function's execution. Notice how each recursive step adds a new stack frame. Then, once the base case is complete, each stack frame is removed in reverse. 
 
-### Example 2
+### Example 2: A Night at the Theater
 
 These days, most of us do our counting ourselves. Let's take a look at a recursion example where you actually have to pass the work to someone else.
 
