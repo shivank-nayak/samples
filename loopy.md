@@ -74,7 +74,7 @@ A recursive function needs to cover two cases:
 1. **Base case**: Solve the smallest/final version of the problem.
 2. **Recursive case**: Call the function on a smaller version of the problem. 
 
-**Example 1: Countdown**
+### Example 1: Countdown
 
 Let's write a function that counts down from an input number. If we use a loop, that might look something like this:
 ```python
