@@ -141,14 +141,14 @@ def print_numbers(n):
 ## When to use
 
 It's better to use a loop when:
-- You know exactly how many times you want to repeat an action
-- You're working with a simple list
-- Memory matters and you don't want too many stack frames
+- You know exactly how many times you want to repeat an action.
+- You're working with a simple list.
+- Memory matters and you don't want too many stack frames.
 
 Recursion can be better when:
-- Problems have natural smaller parts
-- The recursive solution is easier to read
-- You're dealing with nested information
+- Problems have natural smaller parts.
+- The recursive solution is easier to read.
+- You're dealing with nested information.
 
 ## Best practices
 1. Always check when your loops will stop.
